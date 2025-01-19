@@ -1,8 +1,11 @@
 {
+  "homepage": "https://github.com/TigerofCaMau/business-website.git",
   "name": "digital-business-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deplay": "gh-pages -d dist",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
