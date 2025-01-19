@@ -1,0 +1,140 @@
+.wrapper {
+    position: fixed;
+    background-color: var(--primary-color);
+    width: 100%;
+    z-index: 999;
+}
+
+.navContainer {
+    display: flex;
+    padding: 1.5rem 1rem;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    gap: 2.5rem;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.navLinks {
+    font-size: 1.1rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navLinks:hover {
+    color: #d075f7;
+}
+
+.fundButton {
+    color: var(--dark-bg);
+    background-color: var(--third-color);
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.fundButton:hover {
+    transform: translateY(-5%);
+    color: var(--text-color);
+}
+
+.fundButton:active {
+    transform: translateY(5%);
+}
+
+.navMobileContainer {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .navContainer {
+        display: none;
+    }
+
+    .navMobileContainer {
+        display: block;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        position: relative;
+        background-color: var(--primary-color);
+    }
+
+    .mobileLogo {
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    .navMobileMenu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 3.85rem;
+        left: 0;
+        background-color: var(--primary-color);
+        font-size: 1.2rem;
+        box-sizing: border-box;
+        width: 100%;
+        height: calc(100vh - 3.85rem);
+        z-index: 99;
+
+        transform: translateX(-150%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navMobileMenu.open {
+        transform: translateX(0);
+    }
+
+    .navMobileLinks {
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+    
+    .mobileLink {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--border-color);
+        text-align: center;
+        list-style: none;
+    }
+
+    .mobileFundButton {
+        display: flex;
+        background-color: var(--third-color);
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 1rem 2rem;
+        border-radius: 5rem;
+        color: var(--dark-bg);
+        align-self: center;
+    }
+}

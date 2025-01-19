@@ -1,0 +1,41 @@
+.blockFeaturesContainer {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.blockFeature {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid hsla(0, 0%, 59%, 0.17);
+    border-radius: 1rem;
+    padding: 1rem;
+
+    color: var(--title-color);
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+}
+
+.featureDescription {
+    padding-top: 1rem;
+}
+
+@media (max-width: 576px) {
+    .blocks {
+        width: 80%;
+        margin: auto;
+    }
+
+    .blockFeaturesContainer {
+        flex-direction: column;
+    }
+
+    .blockFeature {
+        margin-top: 0rem!important;
+    }
+}

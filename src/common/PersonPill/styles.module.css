@@ -1,0 +1,20 @@
+.personPill {
+    height: 15rem;
+    width: 6rem;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.personPillBg {
+    height: 100%;
+    width: 100%;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.personPillImage {
+    width: 100%;
+    object-fit: contain;
+    margin-top: 4rem;
+    scale: 2.65;
+}

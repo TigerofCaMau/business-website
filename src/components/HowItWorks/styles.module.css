@@ -1,0 +1,9 @@
+.wrapper {
+    padding-top: 13rem;
+}
+
+.hiwContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

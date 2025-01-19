@@ -1,0 +1,76 @@
+.wrapper {
+    background-color: var(--primary-color);
+}
+
+.container {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footerContainer hr {
+    border-color: var(--border-color-light);
+    width: 100%;
+}
+
+.title {
+    font-size: 2.6rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+}
+
+.emailBox {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.menuItems {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.copyright {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+@media (max-width: 990px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .menu {
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 1.75rem;
+    }
+}

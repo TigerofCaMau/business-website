@@ -1,0 +1,38 @@
+.emailBox {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+}
+
+.input {
+    outline: none;
+    border: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: rgb(150, 150, 150);
+    font-family: 'Josefin Sans', sans-serif;
+    flex: 1;
+}
+
+.input::placeholder {
+    font-size: .8rem;
+}
+
+.getFunded {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0.5rem;
+    height: 80%;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border-radius: 5rem;
+    padding: 0 2rem;
+    color: white;
+}

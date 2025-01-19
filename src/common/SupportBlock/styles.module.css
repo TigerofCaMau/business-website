@@ -1,0 +1,34 @@
+.support {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    width: 75%;
+    margin-top: 2.5rem;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.leftSide,
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.leftSide {
+    flex: 1;
+}
+
+.rightSide {
+    flex: 1.5;
+}
+
+@media (max-width: 768px) {
+    .support {
+        flex-direction: column;
+    }
+}

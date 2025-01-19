@@ -1,0 +1,9 @@
+.wrapper {
+    padding-top: 15rem;
+}
+
+.ourDifferenceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

@@ -1,0 +1,25 @@
+.whatWrapper {
+    position: relative;
+}
+
+.whatContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    gap: 2rem;
+}
+
+.blockContainer {
+    display: flex;
+    width: 80%;
+    gap: 2rem;
+}
+
+@media (max-width: 990px) {
+    .blockContainer {
+        flex-direction: column;
+    }
+}
+

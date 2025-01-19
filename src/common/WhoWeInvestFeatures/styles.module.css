@@ -1,0 +1,20 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 28rem;
+    margin-bottom: 2.25rem;
+}
+
+.description {
+    font-size: 1.4rem;
+    color: var(--fourth-color);
+    line-height: 2rem;
+}
+
+.text {
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}

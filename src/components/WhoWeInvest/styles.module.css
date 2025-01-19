@@ -1,0 +1,47 @@
+.wrapper {
+    padding-top: 13rem;
+}
+
+.wwiContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSide,
+.rightSide {
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+}
+
+@media (max-width: 990px) {
+    .wwiContainer {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .rightSide {
+        align-self: center;
+        margin-top: 2rem;
+    }
+
+    .image {
+        max-width: 30rem;
+        height: auto;
+    }
+}

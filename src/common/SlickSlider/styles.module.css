@@ -1,0 +1,81 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 20rem;
+    margin-bottom: 10rem;
+}
+
+.slick-slider {
+    margin-top: 5rem;
+}
+
+.slick-track {
+    padding: 4rem 0rem;
+}
+
+.slick-slide > div {
+    padding: 0 1.25rem;
+}
+
+.slick-dots {
+    bottom: 0px!important;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    gap: 3rem;
+    margin-bottom: 7.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 12.5rem;
+    gap: 2rem;
+}
+
+.content span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #877eb5;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 100%;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.person > :nth-child(1) {
+    font-weight: bold;
+}
+
+.person > :nth-child(2) {
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.688);
+    font-size: .8rem;
+}
