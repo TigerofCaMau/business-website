@@ -12,7 +12,7 @@ const Hero = () => {
             <div className={styles.container}>
                 <Image
                     className={styles.backgroundArrow}
-                    src="/hero/hero-arrow.png"
+                    src="/hero-arrow.png"
                     alt="arrow"
                     width={700}
                     height={700}
